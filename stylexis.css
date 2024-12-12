@@ -1,0 +1,102 @@
+body {
+  font-family: 'Sorts Mill Goudy', serif;
+  background-color: #f0f4f8;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.container {
+  width: 85%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.card-beige {
+  background-color: #ffffff;
+  border-radius: 15px;
+  padding: 30px;
+  margin-bottom: 25px;
+  box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2 {
+  color: #1a3a5b;
+}
+
+h1.texte-policegrande {
+  font-family: 'Quintessential', cursive;
+  font-size: 3em;
+  color: #1a3a5b;
+}
+
+h2.texte-policemoyenne {
+  font-family: 'Young Serif', serif;
+  font-size: 2.2em;
+  color: #1a3a5b;
+}
+
+.texte-policepetite {
+  font-size: 1.1em;
+  color: #666666;
+  line-height: 1.6;
+}
+
+.btn-green {
+  background-color: #3498db;
+  color: white;
+  padding: 12px 25px;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.btn-green:hover {
+  background-color: #2980b9;
+}
+
+.list-inline li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.list-inline a {
+  color: #3498db;
+  font-size: 1.8em;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.list-inline a:hover {
+  color: #1a3a5b;
+}
+
+.img-circle {
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border: 5px solid #3498db;
+  transition: transform 0.3s ease;
+}
+
+.img-circle:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+
+  h1.texte-policegrande {
+    font-size: 2.2em;
+  }
+
+  h2.texte-policemoyenne {
+    font-size: 1.8em;
+  }
+}
