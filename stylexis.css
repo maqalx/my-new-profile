@@ -1,5 +1,5 @@
 body {
-  font-family: 'Sorts Mill Goudy', serif;
+  font-family: 'Roboto', serif;
   background-color: #f0f4f8;
   margin: 0;
   padding: 0;
@@ -25,19 +25,19 @@ h1, h2 {
   color: #1a3a5b;
 }
 
-h1.texte-policegrande {
-  font-family: 'Quintessential', cursive;
+h1.texte-police1 {
+  font-family: 'Roboto', cursive;
   font-size: 3em;
   color: #1a3a5b;
 }
 
-h2.texte-policemoyenne {
-  font-family: 'Young Serif', serif;
+h2.texte-police2 {
+  font-family: 'Roboto', serif;
   font-size: 2.2em;
   color: #1a3a5b;
 }
 
-.texte-policepetite {
+.texte-police3 {
   font-size: 1.1em;
   color: #666666;
   line-height: 1.6;
@@ -92,11 +92,11 @@ h2.texte-policemoyenne {
     width: 95%;
   }
 
-  h1.texte-policegrande {
+  h1.texte-police1 {
     font-size: 2.2em;
   }
 
-  h2.texte-policemoyenne {
+  h2.texte-police2 {
     font-size: 1.8em;
   }
 }
